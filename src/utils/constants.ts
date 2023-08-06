@@ -1,0 +1,1 @@
+export const FACK_DOODLES_ADD = '0x188e0aed23066Fd2abDed09a36b10BA575FD9e13';

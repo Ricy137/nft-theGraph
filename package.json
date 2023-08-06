@@ -20,6 +20,7 @@
     "dayjs": "^1.11.9",
     "ethers": "^6.7.0",
     "jotai": "^2.2.3",
+    "jotai-tanstack-query": "^0.7.1",
     "jsbi": "^4.3.0",
     "localstorage-enhance": "^1.0.1",
     "lodash-es": "^4.17.21",
@@ -31,7 +32,8 @@
     "react-router-dom": "^6.14.2",
     "react-use-clipboard": "^1.0.9",
     "reseter.css": "^2.0.0",
-    "rollup-plugin-visualizer": "^5.9.2"
+    "rollup-plugin-visualizer": "^5.9.2",
+    "swiper": "^10.1.0"
   },
   "devDependencies": {
     "@types/lodash-es": "^4.17.8",
