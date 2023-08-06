@@ -1,0 +1,53 @@
+{
+  "name": "nft-thegraph",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@floating-ui/react": "^0.25.0",
+    "@iconify/json": "^2.2.98",
+    "@react-spring/web": "^9.7.3",
+    "@types/node": "^20.4.8",
+    "buffer": "^6.0.3",
+    "clsx": "^2.0.0",
+    "custom-react-scrollbar": "0.0.4",
+    "date-fns": "^2.30.0",
+    "dayjs": "^1.11.9",
+    "ethers": "^6.7.0",
+    "jotai": "^2.2.3",
+    "jsbi": "^4.3.0",
+    "localstorage-enhance": "^1.0.1",
+    "lodash-es": "^4.17.21",
+    "react": "^18.2.0",
+    "react-datepicker": "^4.16.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-error-boundary": "^4.0.10",
+    "react-router-dom": "^6.14.2",
+    "react-use-clipboard": "^1.0.9",
+    "reseter.css": "^2.0.0",
+    "rollup-plugin-visualizer": "^5.9.2"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.8",
+    "@types/react": "^18.2.18",
+    "@types/react-datepicker": "^4.15.0",
+    "@types/react-dom": "^18.2.7",
+    "@unocss/preset-icons": "^0.54.1",
+    "@unocss/preset-wind": "^0.54.1",
+    "@unocss/transformer-directives": "^0.54.1",
+    "@vitejs/plugin-react": "^4.0.4",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "prettier": "latest",
+    "typescript": "^5.1.6",
+    "unocss": "^0.54.1",
+    "vite": "^4.4.8",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-svgr": "^3.2.0"
+  }
+}
