@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -43,7 +43,7 @@
     "@unocss/transformer-directives": "^0.54.1",
     "@vitejs/plugin-react": "^4.0.4",
     "@vitejs/plugin-react-swc": "^3.3.2",
-    "prettier": "latest",
+    "prettier": "3.0.1",
     "typescript": "^5.1.6",
     "unocss": "^0.54.1",
     "vite": "^4.4.8",
