@@ -3,7 +3,19 @@
 A NFT project demo, experiment purpose for The Graph and PWA. ( the Graph doesn't support hosted service on sepolia while developing, so it's using ethereum goerli network)
 
 # introducation
-The project contains a minting page and a library page, and you can visit the details of each NFT through the library page. Each NFT details are read by customized the Graph API, which you can play : [here](https://thegraph.com/hosted-service/subgraph/ricy137/fake-doodles)
+The project contains a minting page and a library page, and you can visit the details of each NFT through the library page.
+
+## The Graph
+Each NFT details are read from customized the Graph API, which you can play : [here](https://thegraph.com/hosted-service/subgraph/ricy137/fake-doodles)
+
+## PWA
+The project is PWA(Progressive Web Application), which means you can "install" it on your mobile or desktop.
+The main goal of the PWA is to provide users a better accessibility(especially for mobile users), while maintain the web apps' *reach anyone, anyone on any device* and avoid the annoying process of native app installation. 
+* Though the minting function is unavailable on mobile currently, it's still a good practice to build a PWA and attract mobile users.
+
+### PWA Mobile installation
+- Android: click the "install" button on the top right corner of the browser
+- iOS: click the "share" button of the browser, and then click "add to home screen"
 
 [live demo](https://nft-the-graph.vercel.app/)
 
@@ -14,10 +26,3 @@ The project contains a minting page and a library page, and you can visit the de
 - The Graph
 - Vite
 
-## codes structure
-- `src/components`: contains all the components, which are common components used by different projects
-- `src/hooks`: contains all the common hooks, which can be used by different projects
-- `src/pages`: contains all the pages
-- `src/utils`: contains all the utils functions
-- `src/services`: project specific, for project's state management 
-- `src/modules`: project specific components

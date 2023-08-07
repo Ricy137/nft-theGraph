@@ -48,7 +48,7 @@ const TokenDetailD: React.FC<{ id: string; owner: string; type: string }> = ({ i
       <div className="flex items-center text-14px leading-22px ">TokenId: {id}</div>
       <div className="flex items-center text-14px leading-22px ">Contract Address: {shortenAdd(FACK_DOODLES_ADD)}</div>
       <div className="flex items-center text-14px leading-22px ">Ownder Address: {shortenAdd(owner)}</div>
-      <div className="flex flex-col text-14px leading-22px ">
+      <div className="flex flex-col text-14px leading-22px box-border">
         Traits:
         <div className="flex flex-row flex-wrap gap-12px w-full min-h-160px">
           {traist.map((item) => (
