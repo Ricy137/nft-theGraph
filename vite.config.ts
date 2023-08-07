@@ -7,6 +7,7 @@ import presetWind from '@unocss/preset-wind';
 import transformerDirective from '@unocss/transformer-directives';
 import { visualizer } from 'rollup-plugin-visualizer';
 import viteCompression from 'vite-plugin-compression';
+import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
   plugins: [
@@ -25,6 +26,7 @@ export default defineConfig({
     }),
     react(),
     viteCompression(),
+    VitePWA({ injectRegister: 'auto' }),
   ],
   resolve: {
     alias: {

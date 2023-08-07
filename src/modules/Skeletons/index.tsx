@@ -3,9 +3,7 @@ import Spin from '@components/Spin';
 import DefaultI from '@assets/default.svg';
 
 export const TokenImgSkeleton: React.FC = () => {
-  return (
-      <PImg placeHolderSrc={DefaultI} src={DefaultI} alt="doodle" className="w-full border-1px border-solid rounded-30px" />
-  );
+  return <PImg placeHolderSrc={DefaultI} src={DefaultI} alt="doodle" className="w-full border-1px border-solid rounded-30px" />;
 };
 
 export const LibraryCardSkeleton: React.FC = () => {
