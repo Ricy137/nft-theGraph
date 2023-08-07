@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@apollo/client": "^3.7.17",
     "@floating-ui/react": "^0.25.0",
     "@iconify/json": "^2.2.98",
     "@react-spring/web": "^9.7.3",
@@ -19,6 +20,7 @@
     "date-fns": "^2.30.0",
     "dayjs": "^1.11.9",
     "ethers": "^6.7.0",
+    "graphql": "^16.7.1",
     "jotai": "^2.2.3",
     "jotai-tanstack-query": "^0.7.1",
     "jsbi": "^4.3.0",

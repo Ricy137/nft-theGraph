@@ -15,7 +15,6 @@ const NavLink: React.FC<ComponentProps<typeof Link> & { curPath: boolean }> = ({
 
 const Navbar: React.FC = () => {
   const { pathname: curPath } = useLocation();
-  console.log('curPath', curPath);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
