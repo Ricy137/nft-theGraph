@@ -3,12 +3,12 @@
     "short_name": "FD",
     "icons": [
       {
-        "src": "/public/pwa_192.png",
+        "src": "/pwa_192.png",
         "sizes": "192x192",
         "type": "image/png"
       },
       {
-        "src": "/public/pwa_512.png",
+        "src": "/pwa_512.png",
         "sizes": "512x512",
         "type": "image/png"
       }
