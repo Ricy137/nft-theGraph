@@ -6,7 +6,7 @@ import { asyncAccountsAtom, accountsAtom } from '@service/accounts';
 import { errorMessage } from '@utils/error';
 
 const httpLink = createHttpLink({
-  uri: 'https://api.thegraph.com/subgraphs/name/ricy137/fakecryptocoven',
+  uri: 'https://api.thegraph.com/subgraphs/name/ricy137/fake-doodles',
 });
 
 const client = new ApolloClient({
