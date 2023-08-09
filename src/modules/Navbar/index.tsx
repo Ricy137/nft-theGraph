@@ -26,7 +26,7 @@ const Navbar: React.FC = () => {
       <Mobile open={isMobileMenuOpen} curPath={curPath === '/' ? '/mint' : curPath} />
       <nav className={cx('max-w-1920px mx-auto flex justify-between sm:justify-start items-center w-full h-60px px-32px bg-#ECF6FA z-100')}>
         <Link to="/">
-          <img src={FDIcon} alt="Fake Doodles icon" draggable={false} className="w-34px h-34px mr-auto sm:mr-40px" />
+          <img src="/FD.svg" alt="Fake Doodles icon" draggable={false} className="w-34px h-34px mr-auto sm:mr-40px" />
         </Link>
         <ul className="navbar-linkArea display-none sm:flex h-full items-center text-14px font-semibold">
           <NavLink to="/mint" curPath={curPath === '/' || curPath === '/mint'}>
