@@ -13,7 +13,7 @@ Each NFT details are read from customized the Graph API, which you can play : [h
 ## PWA
 
 The project is PWA(Progressive Web Application), which means you can "install" it on your mobile or desktop.
-The main goal of the PWA is to provide users a better accessibility(especially for mobile users), while maintain the web apps' _reach anyone, anyone on any device_ and avoid the annoying process of native app installation.
+The main goal of the PWA is to provide users a better accessibility(especially for mobile users), while maintain the web apps' _reach anyone, anyone on any device_ and avoid the annoying process of native app installation. Besides, it can also work offline! (requests involves network won't function, but it will provide an offline page, so even thoug user's offline, it won't be an empty page. Such a feature was only available in native app, but now it's available in PWA too! it will provider better user experience for users with bad network) 
 
 - Though the minting function is unavailable on mobile currently, it's still a good practice to build a PWA and attract mobile users.
 - Please check your browser's support before using the feature, even if your browser doens't support it, the project will works as normal

@@ -36,7 +36,8 @@
     "reseter.css": "^2.0.0",
     "rollup-plugin-visualizer": "^5.9.2",
     "swiper": "^10.1.0",
-    "vite-plugin-pwa": "^0.16.4"
+    "vite-plugin-pwa": "^0.16.4",
+    "workbox-window": "^7.0.0"
   },
   "devDependencies": {
     "@types/lodash-es": "^4.17.8",
