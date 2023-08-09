@@ -11,7 +11,20 @@ const httpLink = createHttpLink({
 
 const client = new ApolloClient({
   link: httpLink,
-  cache: new InMemoryCache(),
+  cache: new InMemoryCache({
+    typePolicies: {
+      Query: {
+        fields: {
+          tokens: {
+            keyArgs: false,
+            merge(existing = [], incoming: any[]) {
+              return [...existing, ...incoming];
+            },
+          },
+        },
+      },
+    },
+  }),
 });
 
 const Providers: React.FC<{ children: ReactNode }> = ({ children }) => {

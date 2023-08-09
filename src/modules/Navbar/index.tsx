@@ -1,7 +1,6 @@
 import React, { useState, useEffect, type ComponentProps } from 'react';
 import cx from 'clsx';
 import { Link, useLocation } from 'react-router-dom';
-import FDIcon from '/FD.svg';
 import Mobile from './Mobile';
 import './index.css';
 

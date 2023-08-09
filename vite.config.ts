@@ -26,40 +26,40 @@ export default defineConfig({
     }),
     react(),
     viteCompression(),
+    // VitePWA({
+    //   workbox: {
+    //     globPatterns: ['**/*'],
+    //   },
+    //   // add this to cache all the
+    //   // static assets in the public folder
+    //   includeAssets: ['**/*'],
+    //   manifest: {
+    //     name: 'Fake Doodles',
+    //     short_name: 'FD',
+    //     icons: [
+    //       {
+    //         src: '/pwa_192.png',
+    //         sizes: '192x192',
+    //         type: 'image/png',
+    //       },
+    //       {
+    //         src: '/pwa_512.png',
+    //         sizes: '512x512',
+    //         type: 'image/png',
+    //       },
+    //     ],
+    //     start_url: '/',
+    //     theme_color: '#ecf6f9',
+    //     background_color: '#ABBDFD',
+    //     display: 'fullscreen',
+    //   },
+    // }),
     VitePWA({
-      workbox: {
-        globPatterns: ['**/*'],
-      },
-      // add this to cache all the
-      // static assets in the public folder
-      includeAssets: ['**/*'],
-      manifest: {
-        name: 'Fake Doodles',
-        short_name: 'FD',
-        icons: [
-          {
-            src: '/pwa_192.png',
-            sizes: '192x192',
-            type: 'image/png',
-          },
-          {
-            src: '/pwa_512.png',
-            sizes: '512x512',
-            type: 'image/png',
-          },
-        ],
-        start_url: '/',
-        theme_color: '#ecf6f9',
-        background_color: '#ABBDFD',
-        display: 'fullscreen',
+      registerType: 'autoUpdate',
+      devOptions: {
+        enabled: true,
       },
     }),
-    // VitePWA({
-    //   registerType: 'autoUpdate',
-    //   devOptions:{
-    //     enabled: true,
-    //   }
-    // })
   ],
   resolve: {
     alias: {
